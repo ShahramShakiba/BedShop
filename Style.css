@@ -125,7 +125,7 @@ header {
 }
 
 .search-border {
-  border: 1.5px solid hsla(60, 17%, 61%, 0.5);
+  border: 1px solid var(--secondaryColor);
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -144,7 +144,7 @@ header {
 }
 
 .search-icon {
-  color: rgba(172, 172, 139, 1);
+  color: var(--primaryColor);
 }
 /* --END Of Search Container-- */
 
