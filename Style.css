@@ -18,6 +18,7 @@
   --mainBlack: rgb(44, 44, 0);
   --mainRed: #db2777;
   --mainButton: rgba(97, 97, 61, 0.99);
+  --mainShadow: 0 0 7px rgba(0, 0, 0, 0.4);
   --mainSpacing: 0.2rem;
   --mainTransition: all 0.3s linear;
   --bodyColor: #ececec;
@@ -154,7 +155,7 @@ header {
   letter-spacing: var(--mainSpacing);
   font-size: 1.2rem;
   color: var(--mainButton);
-  text-shadow: 0 0 7px rgba(0, 0, 0, 0.4);
+  text-shadow: var(--mainShadow);
   animation: wiggle 5s linear infinite;
 }
 
